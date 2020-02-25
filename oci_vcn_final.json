@@ -1,0 +1,27 @@
+{
+  "cidrBlock": "string",
+  "compartmentId": "string",
+  "definedTags": {
+    "tagNamespace1": {
+      "tagKey1": "tagValue1",
+      "tagKey2": "tagValue2"
+    },
+    "tagNamespace2": {
+      "tagKey1": "tagValue1",
+      "tagKey2": "tagValue2"
+    }
+  },
+  "displayName": "string",
+  "dnsLabel": "string",
+  "freeformTags": {
+    "tagKey1": "tagValue1",
+    "tagKey2": "tagValue2"
+  },
+  "ipv6CidrBlock": "string",
+  "isIpv6Enabled": true,
+  "maxWaitSeconds": 0,
+  "waitForState": [
+    "PROVISIONING|AVAILABLE|TERMINATING|TERMINATED"
+  ],
+  "waitIntervalSeconds": 0
+}
