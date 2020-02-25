@@ -1,23 +1,13 @@
 {
-  "cidrBlock": "string",
-  "compartmentId": "string",
-  "definedTags": {
-    "tagNamespace1": {
-      "tagKey1": "tagValue1",
-      "tagKey2": "tagValue2"
-    },
-    "tagNamespace2": {
-      "tagKey1": "tagValue1",
-      "tagKey2": "tagValue2"
-    }
-  },
-  "displayName": "string",
-  "dnsLabel": "string",
+  "cidrBlock": "192.168.198.0/24",
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaaqipgoc62poyv6jofhvdlnbo2kn54ithjurzcmypk644ys2xiwt3q",
+  "displayName": "OCI_VCN1",
+  "dnsLabel": "kapia",
   "freeformTags": {
     "tagKey1": "tagValue1",
     "tagKey2": "tagValue2"
   },
-  "ipv6CidrBlock": "string",
+  "ipv6CidrBlock": null,
   "isIpv6Enabled": true,
   "maxWaitSeconds": 0,
   "waitForState": [
